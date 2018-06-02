@@ -7,3 +7,5 @@ docker container run te --rm -p 9410:9410 -p 9430:9430 terracotta/terracotta-ser
 ```
 
 Configure url in src/main/resources/ehcache.xml
+
+New feature can be simulated with setting jcache.beanclassloader in application.properties to either true or false.
